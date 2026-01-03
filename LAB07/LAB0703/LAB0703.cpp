@@ -1,0 +1,16 @@
+// TODO: เปลี่ยนค่า a ผ่าน pointer
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+    int* p = &a;
+    * p = 100;
+    
+	cout << a << endl;
+	cout << p << endl;
+	cout << *p << endl;
+
+    cout << "a = " << a << endl;
+    return 0;
+}
